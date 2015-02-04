@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name        = "kickbox"
-  gem.version     = "1.0.5"
+  gem.version     = "1.0.6"
   gem.description = "Official kickbox API library client for ruby"
   gem.summary     = "Official kickbox API library client for ruby"
 
@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
 
   gem.files = Dir["lib/**/*"]
 
-  gem.add_dependency "faraday", "~> 0.8.8"
-  gem.add_dependency "json", ">= 1.7.7"
+  gem.add_dependency "faraday", "~> 0.9"
+  gem.add_dependency "json", "~> 1.8"
 end
